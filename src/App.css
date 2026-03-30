@@ -39,8 +39,8 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--color-emerald);
-  box-shadow: 0 0 12px var(--color-emerald-glow);
+  background: var(--color-amber);
+  box-shadow: 0 0 12px var(--color-amber-glow);
   animation: pulse-dot 2s ease-in-out infinite;
 }
 
@@ -131,9 +131,9 @@
 }
 
 .hero__cta--outline:hover {
-  border-color: var(--color-blue);
-  background: var(--color-blue-glow);
-  box-shadow: 0 8px 32px var(--color-blue-glow);
+  border-color: var(--color-amber);
+  background: var(--color-amber-glow);
+  box-shadow: 0 8px 32px var(--color-amber-glow);
 }
 
 .hero__scroll-indicator {
@@ -307,7 +307,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--gradient-cool);
+  background: var(--gradient-warm);
   transition: width 0.5s var(--ease-out-expo);
 }
 
@@ -339,11 +339,11 @@
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-cyan);
-  background: var(--color-cyan-glow);
+  color: var(--color-rose);
+  background: var(--color-rose-glow);
   padding: 3px 10px;
   border-radius: 100px;
-  border: 1px solid rgba(6, 182, 212, 0.2);
+  border: 1px solid rgba(244, 63, 94, 0.2);
 }
 
 .portfolio-card__period {
@@ -361,7 +361,7 @@
 }
 
 .portfolio-card__link:hover {
-  color: var(--color-cyan);
+  color: var(--color-rose);
   transform: translateY(-2px);
 }
 
