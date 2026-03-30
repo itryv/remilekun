@@ -1,11 +1,11 @@
 /* ============================================
-   DESIGN SYSTEM — Monochrome Minimalism
+   DESIGN SYSTEM — Dark + Vibrant Accents
    ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
 
 :root {
-  /* --- Colors --- */
+  /* --- Base Colors --- */
   --color-bg: #0a0a0a;
   --color-bg-elevated: #111111;
   --color-bg-subtle: #1a1a1a;
@@ -18,6 +18,26 @@
   --color-accent: #ffffff;
   --color-accent-dim: rgba(255, 255, 255, 0.08);
   --color-accent-glow: rgba(255, 255, 255, 0.04);
+
+  /* --- Vibrant Accent Palette --- */
+  --color-blue: #3b82f6;
+  --color-blue-glow: rgba(59, 130, 246, 0.15);
+  --color-violet: #8b5cf6;
+  --color-violet-glow: rgba(139, 92, 246, 0.15);
+  --color-emerald: #10b981;
+  --color-emerald-glow: rgba(16, 185, 129, 0.15);
+  --color-amber: #f59e0b;
+  --color-amber-glow: rgba(245, 158, 11, 0.15);
+  --color-rose: #f43f5e;
+  --color-rose-glow: rgba(244, 63, 94, 0.15);
+  --color-cyan: #06b6d4;
+  --color-cyan-glow: rgba(6, 182, 212, 0.15);
+
+  /* --- Gradients --- */
+  --gradient-primary: linear-gradient(135deg, var(--color-blue), var(--color-violet));
+  --gradient-warm: linear-gradient(135deg, var(--color-amber), var(--color-rose));
+  --gradient-cool: linear-gradient(135deg, var(--color-emerald), var(--color-cyan));
+  --gradient-subtle: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(139, 92, 246, 0.08));
 
   /* --- Typography --- */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
